@@ -2,12 +2,7 @@
    * Subtract the Future Date and Today Date to get Time DIfference in Values
    * Use Time Difference with the Millisecond values
 
-   Time in Milliseconds:
-
-   1s = 1000ms
-   1m = 60s
-   1hr = 60min
-   1d = 24hr
+   
 
 */
 
@@ -37,6 +32,7 @@ class Countdown{
   /* Day value that is left over */
   let days = timeDiff / this.ONE_DAY_MILLI;
   days = Math.floor(days);
+
 
   /* Gets the Modulo value that is left over from Time Difference by oneDay in ms
      Divided by the 1 hr in milliseconds
